@@ -1,0 +1,200 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+.header {
+    width: 100%;
+    max-width: 1180px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 30px;
+    display:  flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    font-weight: 700;
+
+}
+
+.footer {   
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgba(247, 247, 247, 1);
+}
+.wrap {
+    width: 100%;
+    max-width: 1180px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;  
+    box-sizing: border-box;  
+}
+
+.nav {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 14px;
+}
+
+.nav>li {
+    margin-left: 15px;
+}
+
+.nav>li>a {
+    text-decoration: none;
+    color: rgba(32, 32, 32, 1);
+}
+
+.nav_btn {
+    background-color: rgba(85, 40, 255, 1);
+    border-radius: 5px;
+    padding: 10px 15px;
+    border: none;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.logo_img {
+    display: block;
+    width: 58px;
+    height: 58px;
+    background-image: url(/static/images/logo.svg); 
+    margin-right: 20px;
+}
+.logo_text {
+    font-size: 24px;
+    color: rgba(32, 32, 32, 1);
+}
+.title-main {
+    font-size: 57px;
+    color: #202020;
+    font-weight: 700;
+    
+}
+
+.text-main {
+    font-size: 56px;
+    line-height: 1.5;
+    color: rgba(79, 79, 79, 1);
+
+}
+.button {
+    background-color: rgba(85, 40, 255, 1);
+    border-radius: 10px;
+    padding: 10px 45px;
+    border: none;
+    font-size: 24px;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.page {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    position: relative;
+}
+
+.page-top {
+    border-top: 1px solid #C2C2C2;
+}
+
+.page h2 {
+    position: absolute;
+    top: -24px;
+    font-size: 14px;
+    font-weight: 300;
+    background-color: #ffff;
+    padding: 5px 15px;
+    color: rgba(194, 194, 194, 1);
+
+}
+
+.services {
+    display: grid;
+    grid-template: 50% 50% / 50% 50%;
+}
+
+.services-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.services-img{
+   flex-basis: 120px;
+   text-align: center;
+}
+
+.services-text{
+    flex-basis: calc(100% - 120px);
+
+}
+
+.services h3 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.services p {
+    font-size: 14px;
+    color: #B2B2B2;
+    line-height: 1.5;
+
+}
+
+.clients {
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(4, 25%);
+    text-align: center;
+    grid-row-gap: 40px;
+}
+.team {
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(3, 33%);
+    grid-row-gap: 40px;
+}
+.team-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+.team-item img{
+    margin-right: 20px;
+}
+
+.team-item>div {
+flex-basis: calc(100% - 100px);
+
+}
+
+.box-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social {
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.social>li {
+    margin-left: 15px;
+}
+.social>li>a {
+    text-decoration: none;
+    color: rgba(178, 178, 178, 1);
+    font-size: 24px;
+}
